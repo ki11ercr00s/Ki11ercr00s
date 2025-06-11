@@ -1,20 +1,18 @@
-/* Reset básico */
-* {
+
+  {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Estilo general */
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #007BFF; /* Azul vibrante */
+  background-color: #007BFF;
   color: #ffffff;
   line-height: 1.6;
   padding: 1rem;
 }
 
-/* Estructura responsiva */
 header, section, footer {
   background-color: #0056b3;
   margin: 1rem auto;
@@ -24,17 +22,14 @@ header, section, footer {
   border: 2px solid #ffffff50;
 }
 
-/* Títulos */
 h1, h2 {
   margin-bottom: 0.5rem;
 }
 
-/* Lista de habilidades */
 .skills ul {
   padding-left: 1.2rem;
 }
 
-/* Tarjetas de proyectos */
 .card {
   background-color: #0069d9;
   padding: 1rem;
@@ -48,7 +43,6 @@ h1, h2 {
   transform: scale(1.02);
 }
 
-/* Botones */
 button {
   background-color: transparent;
   border: 2px solid #fff;
@@ -66,13 +60,11 @@ button:hover {
   box-shadow: 0 0 10px #ffffff88;
 }
 
-/* Footer */
 footer {
   text-align: center;
   font-size: 0.9rem;
 }
 
-/* Media query para pantallas pequeñas */
 @media (max-width: 600px) {
   body {
     padding: 0.5rem;
